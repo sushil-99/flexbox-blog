@@ -1,0 +1,56 @@
+body{
+    margin:0;
+}
+
+.global-msg{
+    background-color: orangered;
+    padding: 8px 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Global message*/
+
+.gbl-content{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.gbl-content a{
+    color:white;
+}
+
+/*Top menu*/
+.nav-bar{
+    background: blue;
+    color:white;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    margin-left: 16px;
+}
+
+.menu ul li:hover{
+    background: orangered;
+    cursor: pointer;
+}
