@@ -16,12 +16,20 @@ a{
     text-decoration: none;
 }
 
+.btn{
+    background: orangered;
+    border: 1px solid rgba(255, 68, 0, 0.49);
+    padding: 5px 15px;
+    
+}
+
 /*Global message*/
 
 .gbl-content{
     display: flex;
     color: white;
     justify-content: space-between;
+    
 }
 
 .gbl-content a{
@@ -53,4 +61,133 @@ a{
 .menu ul li:hover{
     background: orangered;
     cursor: pointer;
+}
+
+/*Hero section*/
+.hero{
+    height: 80vh;
+    background:url(img/pic.avif) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    background: rgba(0, 0, 0, 0.574);
+    text-align: center;
+    color:wheat;
+    padding: 16px 32px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+/*MAIN CONTENT*/
+.main{
+    display: flex;
+}
+.main-content{
+    width: 70%;
+}
+
+
+main article{
+    border: 1px solid silver;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: -5px 5px 15px 5px rgba(128, 128, 128, 0.822);
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.art-img{
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+article .btn{
+    float: right;
+}
+
+
+/*Aside*/
+.side-links{
+    width:30%;
+    margin-top: 5.5rem;
+    
+
+}
+
+.read-by-country{
+    background: rgb(6, 200, 70, 0.5);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  
+}
+
+.read-by-date{
+    background: rgb(218, 218, 3);
+}
+
+
+
+
+/*Footer*/
+.footer{
+    min-height: 20px;
+    background:black;
+    color: white;
+    padding: 2rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*Rrcommendation section*/
+
+.recc{
+    margin-top: 5rem;
+    background: rgba(47, 255, 210, 0.733);
+    padding: 5rem 0;
+}
+
+.card-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:300px;
+    background: white;
+    padding-bottom: 1rem;
+    box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 8px;
+    margin-top:2rem;
+}
+
+.card .btn{
+    width:100%;
+}
+
+.card img{
+    height:300px;
+    border-radius: 8px 8px 0 0;
+}
+
+/*Subscription*/
+.subs{
+    margin-top: 5rem ;
+    margin-bottom: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
